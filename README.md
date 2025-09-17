@@ -5,14 +5,14 @@
 I firstly attempted to look at OLS models to assess the relationships between the real estate sector and economic variables. The model summary is the following:
 
 
-| Variable          | Estimate   | Std. Error | t value | Pr(>|t|)   | Significance |
-|-------------------|------------|------------|---------|------------|--------------|
-| (Intercept)       | 18.760555  | 4.352645   | 4.310   | 3.74e-05   | ***          |
-| interest_rate_us  | -0.784933  | 0.143656   | -5.464  | 3.25e-07   | ***          |
-| gdp_growth_rate   | -0.378329  | 0.227621   | -1.662  | 0.0995     | .            |
-| interpolated_cpi  | 0.649253   | 0.111763   | 5.809   | 7.05e-08   | ***          |
-| euro_dollar       | -6.979859  | 3.902266   | -1.789  | 0.0766     | .            |
-| avg_sandp_close   | 0.058794   | 0.002909   | 20.211  | < 2e-16    | ***          |
+| # Variable          | # Estimate   | # Std. Error | # t value | # Pr(>|t|)   | #Significance |
+|---------------------|--------------|--------------|-----------|--------------|--------------|
+| (Intercept)         | 18.760555  | 4.352645   | 4.310         | 3.74e-05     | ***          |
+| interest_rate_us    | -0.784933  | 0.143656   | -5.464        | 3.25e-07     | ***          |
+| gdp_growth_rate     | -0.378329  | 0.227621   | -1.662        | 0.0995       | .            |
+| interpolated_cpi    | 0.649253   | 0.111763   | 5.809         | 7.05e-08           | ***          |
+| euro_dollar         | -6.979859  | 3.902266   | -1.789        | 0.0766             | .            |
+| avg_sandp_close     | 0.058794   | 0.002909   | 20.211        | < 2e-16            | ***          |
 
 
 The OLS models, however, gave high autocorrelation and heteroscedasticity, hence I attempted to look at ARIMA models. 
