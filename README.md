@@ -33,3 +33,8 @@ The graphs below demonstrate how the error terms are white noise, meaning that t
 
 ## Forecasting
 I used the ARIMA model to forecast the next 12 months of the real estate sector. The graph below shows the forecast with the 80% and 95% confidence interval areas (dark blue and light blue areas respectively):
+
+![](ARIMA%20forecast%20of%20real%20estate%20with%20ARIMA%20external%20regressors.png)
+
+
+
