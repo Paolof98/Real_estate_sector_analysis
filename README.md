@@ -5,11 +5,14 @@
 I firstly attempted to look at OLS models to assess the relationships between the real estate sector and economic variables. The model summary is the following:
 
 
-
-
-
-
-
+| Variable          | Estimate   | Std. Error | t value | Pr(>|t|)   | Significance |
+|-------------------|------------|------------|---------|------------|--------------|
+| (Intercept)       | 18.760555  | 4.352645   | 4.310   | 3.74e-05   | ***          |
+| interest_rate_us  | -0.784933  | 0.143656   | -5.464  | 3.25e-07   | ***          |
+| gdp_growth_rate   | -0.378329  | 0.227621   | -1.662  | 0.0995     | .            |
+| interpolated_cpi  | 0.649253   | 0.111763   | 5.809   | 7.05e-08   | ***          |
+| euro_dollar       | -6.979859  | 3.902266   | -1.789  | 0.0766     | .            |
+| avg_sandp_close   | 0.058794   | 0.002909   | 20.211  | < 2e-16    | ***          |
 
 
 The OLS models, however, gave high autocorrelation and heteroscedasticity, hence I attempted to look at ARIMA models. 
@@ -17,6 +20,18 @@ The OLS models, however, gave high autocorrelation and heteroscedasticity, hence
 
 ## ARIMA models
 The following model looks into the relationships between the XLRE and GDP growth, CPI, interest rates, echange rates with the Euro and the S&P 500:
+
+| Variable          | Estimate | Std. Error |
+|-------------------|----------|------------|
+| ar1               | 0.969    | 0.037      |
+| ma1               | 0.1770   | 0.1071     |
+| ma2               | -0.1719  | 0.1019     |
+| interest_rate_us  | -0.4363  | 0.5233     |
+| gdp_growth_rate   | -0.1469  | 0.0945     |
+| interpolated_cpi  | 0.4994   | 0.2708     |
+| euro_dollar       | 1.0610   | 3.6792     |
+| avg_sandp_close   | 0.0835   | 0.0082     |
+
 
 We can interpret the model in the following way:
 
