@@ -5,7 +5,7 @@
 I firstly attempted to look at OLS models to assess the relationships between the real estate sector and economic variables. The model summary is the following:
 
 
-| Variable          | Estimate   | Std. Error | t value | Probability | Significance |
+| Variable          | Estimate   | Std. Error | t value | p value | Significance |
 |-------------------|-----------:|-----------:|--------:|---------------------:|:------------:|
 | (Intercept)       | 18.760555  | 4.352645   | 4.310   | 3.74e-05             | ***          |
 | interest_rate_us  | -0.784933  | 0.143656   | -5.464  | 3.25e-07             | ***          |
