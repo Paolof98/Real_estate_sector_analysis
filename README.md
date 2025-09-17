@@ -54,5 +54,5 @@ I used the ARIMA model to forecast the next 12 months of the real estate sector.
 
 ![](ARIMA%20forecast%20of%20real%20estate%20with%20ARIMA%20external%20regressors.png)
 
-
+Hence, the real estate sector is predicted to be increasing, taking into account the macroeconomic variables: GDP growth rate, CPI, interest rate and the exchange rate, together with the S&P 500.
 
