@@ -28,6 +28,7 @@ We can interpret the model in the following way:
 
 The graphs below demonstrate how the error terms are white noise, meaning that the error terms do not explain any of the remaining correlations:
 
+![](ARIMA%20model%20residuals%20white%20noise.png)
 
 
 
