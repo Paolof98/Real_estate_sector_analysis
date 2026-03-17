@@ -1,5 +1,9 @@
 # Real estate sector project: economic analysis of the US real estate sector (XRE) performance
 
+In continuation of my project on [building econometric models to analyse how macroeconomic factors (interest rates, inflation, FX, safe-haven flows) drive sector-level performance](https://github.com/Paolof98/Stock_market_project#readme), I ran these models to focus on the US Real Estate sector (via XLRE). Although the dataset was listed real estate equities, the insights are directly applicable to private credit: interest rate and inflation sensitivity inform refinancing risk, while FX and risk sentiment shape cross-border capital flows. This project demonstrates my ability to connect macro drivers to real estate sector performance and adapt that knowledge to credit underwriting and portfolio monitoring.
+
+I tested the reliability of OLS and ARIMA models to analyse relationships of the real estate sector to macroeconomic variables, and I attempted to forecast the sector using the ARIMA model. Currently looking into converting this data into a dashboard for scenario comparisons.
+
 ## OLS models
 
 I firstly attempted to look at OLS models to assess the relationships between the real estate sector and economic variables. The model summary is the following:
