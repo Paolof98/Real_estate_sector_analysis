@@ -63,10 +63,4 @@ Hence, the real estate sector is predicted to be increasing, taking into account
 
 
 ## Scenarios
-I looked at 3 different scenarios, to then forecast XLRE: 
-
-- The base case, with the interest rate at 3%, the GDP growth rate at 1.5% and the CPI at 2%
-- The stagflation case, with the interest rate at 5%, the GDP growth rate at -1% and the CPI at 4.5%
-- The rate cut case, with the interest rate at 2%, the GDP growth rate at 2.5% and the CPI at 1.5%
-
-The highest increase in XLRE is expected given the rate cut scenario, whilst the lowest is given by the stagflation scenario. In October 2025, with almost one year of forecasting, XLRE is expected to be at 372 for the base case, 398 for the rate cut and 315 for the stagflation case. There is a larger difference between the stagflation case and the base case, than there is between the base case and the rate cut. Stagflation is detrimental to XLRE, and this makes sense when the economic interpretation is seen through the lens of uncertainty coming from inflation and unemployment combined. Meanwhile, with a rate cut, house prices are expected to increase, thus XLRE jumps accordingly by 30 points.
+The scenario analysis examines how alternative macroeconomic conditions could affect XLRE prices, using an ARIMA model with interest rates, GDP growth, inflation, exchange rates and the broader equity market as explanatory variables. The reproduced forecasts suggest that an interest-rate cut would have a relatively small positive effect on XLRE, consistent with lower borrowing costs and discount rates supporting real estate valuations. Counterintuitively, the stagflation scenario also produces a slightly higher forecast than the baseline, reflecting the estimated positive inflation coefficient and negative GDP-growth coefficient, which outweigh the adverse effect of higher interest rates. However, these differences are small and statistically uncertain. Furthermore, the scenarios hold broader equity-market conditions constant, potentially understating the negative effects of stagflation on real estate equities. The results should therefore be interpreted as conditional sensitivity analyses rather than definitive predictions, highlighting the importance of model specification and the assumptions underlying macroeconomic scenarios.
