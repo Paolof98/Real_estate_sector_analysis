@@ -60,3 +60,13 @@ I used the ARIMA model to forecast the next 12 months of the real estate sector.
 
 Hence, the real estate sector is predicted to be increasing, taking into account the macroeconomic variables: GDP growth rate, CPI, interest rate and the exchange rate, together with the S&P 500.
 
+
+
+## Scenarios
+I looked at 3 different scenarios, to then forecast XLRE: 
+
+- The base case, with the interest rate at 3%, the GDP growth rate at 1.5% and the CPI at 2%
+- The stagflation case, with the interest rate at 5%, the GDP growth rate at -1% and the CPI at 4.5%
+- The rate cut case, with the interest rate at 2%, the GDP growth rate at 2.5% and the CPI at 1.5%
+
+The highest increase in XLRE is expected given the rate cut scenario, whilst the lowest is given by the stagflation scenario. In October 2025, with almost one year of forecasting, XLRE is expected to be at 372 for the base case, 398 for the rate cut and 315 for the stagflation case. There is a larger difference between the stagflation case and the base case, than there is between the base case and the rate cut. Stagflation is detrimental to XLRE, and this makes sense when the economic interpretation is seen through the lens of uncertainty coming from inflation and unemployment combined. Meanwhile, with a rate cut, house prices are expected to increase, thus XLRE jumps accordingly by 30 points.
